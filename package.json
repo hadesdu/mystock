@@ -1,0 +1,29 @@
+{
+  "name": "mystock",
+  "version": "0.0.0",
+  "description": "show my stock in terminal",
+  "main": "index.js",
+  "bin": {
+    "mystock": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hadesdu/mystock.git"
+  },
+  "author": "hades",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadesdu/mystock/issues"
+  },
+  "homepage": "https://github.com/hadesdu/mystock",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "cli-table": "^0.3.1",
+    "iconv-lite": "^0.4.7",
+    "minimist": "^1.1.0",
+    "q": "^1.2.0"
+  }
+}
