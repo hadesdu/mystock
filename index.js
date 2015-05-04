@@ -5,7 +5,7 @@ var iconv = require('iconv-lite');
 var http = require('http');
 var q = require('q');
 var chalk = require('chalk');
-var Table = require('cli-table');
+var Table = require('cli-table-zh');
 
 /**
  * 如请求 sh600109 的数据，则url为 http://hq.sinajs.cn/list=sh600109
@@ -102,7 +102,7 @@ function getData(stocks) {
 function echo(data) {
     var data = data || [];
     var fields = [
-        'gid', 'nowPri', 'rise', 'todayMax',
+        'name', 'nowPri', 'rise', 'todayMax',
         'todayMin', 'todayStartPri', 'yestodEndPri',
         'buyTwo', 'buyOne', 'sellOne', 'sellTwo'
     ];

@@ -22,6 +22,7 @@
   "dependencies": {
     "chalk": "^1.0.0",
     "cli-table": "^0.3.1",
+    "cli-table-zh": "^0.3.1",
     "iconv-lite": "^0.4.7",
     "minimist": "^1.1.0",
     "q": "^1.2.0"
