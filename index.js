@@ -31,10 +31,10 @@ function main() {
                 image.show(data[0], period);
             }
             else if (argv['top']) {
-                rank.show('top', argv['n']);
+                rank.show('top', argv['top']);
             }
             else if (argv['end']) {
-                rank.show('end', argv['n']);
+                rank.show('end', argv['end']);
             }
             else {
                 hq.list(data);
